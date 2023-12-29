@@ -1,0 +1,35 @@
+body{
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: rgba(0, 0, 0, 0.836);
+}
+h1#header{
+    text-align: center;
+    background-color: white;
+    background-size: auto;
+    padding: 40px;
+}
+p{
+    color: black;
+}
+section#intro{
+    background-color: aqua;
+    text-align: center;
+    font-size: xx-large;
+}
+
+h2.heading{
+    color: antiquewhite;
+}
+ul#edtech,ul#contact{
+    color: antiquewhite;
+}
+a{
+    color: beige;
+}
+a:hover{
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(178, 43, 190);
+}
