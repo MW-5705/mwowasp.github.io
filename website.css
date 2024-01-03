@@ -1,11 +1,11 @@
 body{
     overflow-y: auto;
     overflow-x: hidden;
-    background-color: rgba(0, 0, 0, 0.836);
+    background-color: rgba(239, 241, 241, 0.836);
 }
 h1#header{
     text-align: center;
-    background-color: white;
+    background-color: rgb(252, 252, 252);
     background-size: auto;
     padding: 40px;
 }
@@ -16,6 +16,8 @@ section#intro{
     background-color: aqua;
     text-align: center;
     font-size: xx-large;
+    border-color: black;
+    
 }
 
 h2.heading{
@@ -32,4 +34,14 @@ a:hover{
 }
 a:visited{
     color: rgb(178, 43, 190);
+}
+img{
+    border-radius: 45px;
+}
+.container{
+    border: 10px solid white;
+    border-radius: 65px;
+    padding: 50px;
+    margin: 20px;background-color: rgb(28, 29, 31);
+
 }
