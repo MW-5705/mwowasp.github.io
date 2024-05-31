@@ -1,7 +1,14 @@
+*{
+    font-family: sans-serif;
+}
+
+
+
+
 body{
     overflow-y: auto;
     overflow-x: hidden;
-    background-color: rgba(239, 241, 241, 0.836);
+    background-color: #0B0C10;
 }
 h1#header{
     text-align: center;
@@ -16,17 +23,18 @@ p{
     color: black;
 }
 section#intro{
-    background-color: aqua;
+    /* background-color: ; */
     border-radius: 10px;
     text-align: center;
     font-size: xx-large;
-    border-color: black;
+    /* border-color: ; */
+    color: #66FCF1;
     font-family: cursive;
     
 }
 
 h2.heading{
-    color: antiquewhite;
+    color: #C5C6C7;
     
 }
 ul#edtech,ul#contact{
@@ -49,11 +57,9 @@ img{
     border: 10px solid white;
     border-radius: 65px;
     padding: 50px;
-    margin: 20px;background-color: rgb(28, 29, 31);
+    margin: 20px;background-color: #0B0C10;
 
 }
 img:hover{
-    border-color: gold;
-    border-radius: 0px;
     
 }
