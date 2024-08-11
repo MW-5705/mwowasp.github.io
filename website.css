@@ -8,7 +8,7 @@
 body{
     overflow-y: auto;
     overflow-x: hidden;
-    background-color: #0B0C10;
+    background-color: white;
 }
 h1#header{
     text-align: center;
@@ -41,7 +41,8 @@ ul#edtech,ul#contact{
     color: antiquewhite;
 }
 a{
-    color: beige;
+    text-decoration: none;
+    margin: 13px;
 }
 a:hover{
     text-decoration: none;
@@ -53,13 +54,52 @@ img{
     border-radius: 45px;
     cursor: none;
 }
+.main
+{
+    /* border: 5px solid black; */
+    width: 99vw;
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container{
-    border: 10px solid white;
+    border: 2px solid black;
     border-radius: 65px;
     padding: 50px;
-    margin: 20px;background-color: #0B0C10;
-
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 738px;
+    height: 500px;
+    background-color: rgb(251, 247, 247,1);
+    box-shadow: 5px 5px;
+    flex-direction: column;
 }
-img:hover{
-    
+
+.title
+{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: red;
+}
+/* .sentence
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+} */
+
+.socials
+{
+    /* border: 2px solid black; */
+    margin-top: 77px;
+    display: flex;
+}
+.final
+{
+    margin-top: 51px;
 }
